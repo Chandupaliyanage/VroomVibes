@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Seymour+One&family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Mono+One&family=Seymour+One&family=Teko:wght@300..700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 body {
@@ -63,7 +63,8 @@ form label {
     margin: 5px 0;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -89,12 +90,14 @@ footer {
     position: absolute;
     width: 100%;
 }
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 1200px; /* Maximum width for the container */
+    max-width: 1200px;
+    /* Maximum width for the container */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -115,21 +118,40 @@ footer {
     .container {
         flex-direction: row;
     }
+
     .card {
         flex: 1;
     }
 }
+
 body {
     background-image: url('../img/normalbg.jpg');
     background-size: cover;
 }
-.top{
+
+.top {
     color: rgb(97, 62, 93);
     font-family: "Poetsen One", sans-serif;
 }
-.we{
-    font-family: "Rubik Mono One", monospace;  
+
+.we {
+    font-family: "Rubik Mono One", monospace;
 }
-.xx{
-    font-family: "Permanent Marker", cursive; 
+
+.xx {
+    font-family: "Kanit", sans-serif;
+
+}
+
+.ft {
+    font-family: "Permanent Marker", cursive;
+}
+
+.vv {
+    font-family: "Lobster", sans-serif; 
+    color: rgb(97, 62, 93);
+}
+.vc{
+   ; 
+    color: rgb(0, 0, 0);
 }
